@@ -100,3 +100,35 @@ footer {
     margin-left: 16px;
   }
 }
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.coming-soon {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.insta-link {
+  font-size: 16px;
+  text-decoration: none;
+  color: #111;
+  border-bottom: 1px solid #111;
+  padding-bottom: 4px;
+}
+
+.insta-link:hover {
+  opacity: 0.6;
+}
